@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="POST" action="seven.html">
+<input type="hidden" name="ip" value="1.1.1.1">
+<label>Journey date</label>
+<input type="date" name="journeydate" min="2021-04-19" max="2021-04-26"/>
+<br/>
+<label>Timing</label>
+<input type="time" name="pickuptime"/>
+<br/>
+<input type="number" name="gst"  value="10" readonly/><br/>
+<input type="checkbox" name="seniorcitizen" value="Y">seniorcitizen<br/>
+<label>Gender</label><br/>
+<input type="radio" name="gender" value="M">Male<br/>
+<input type="radio" name="gender" value="F">Female<br/>
+<h4>Instructions</h4>
+<ul>
+<li>Must wear mask</li>
+<li>Should not eat inside cab</li>
+</ul>
+<button>Submit</button>
+</form>
+</body>
+</html>
